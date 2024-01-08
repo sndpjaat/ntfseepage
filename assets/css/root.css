@@ -1,0 +1,52 @@
+:root{
+    --fs-sm: 18px;
+    --fs-md: 22px;
+    --color-black: #000;
+    --bg-white: #FFF;
+    --bg-gray: #F8F8F8;
+    --color-blue: #1A9FFF;
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+.color-black {
+    color: var(--color-black);
+}
+.bg-white {
+    background: var(--bg-white);
+}
+.bg-gray {
+    background: var(--bg-gray);
+}
+.color-blue {
+    color: var(--color-blue);
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-400{
+    font-weight: 400;
+}
+.ff-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+@media (min-width:576px) {
+    :root {
+        --fs-sm: 18px;
+        --fs-md: 26px;
+    }
+}
+@media (min-width:768px) {
+    :root {
+        --fs-sm: 18px;
+        --fs-md: 36px;
+    }
+}
+
+
+
